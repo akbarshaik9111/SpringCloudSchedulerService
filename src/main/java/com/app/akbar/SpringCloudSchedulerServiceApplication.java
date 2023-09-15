@@ -10,6 +10,7 @@ public class SpringCloudSchedulerServiceApplication {
 
 	public static void main(String[] args) {
 	int a = 10;	SpringApplication.run(SpringCloudSchedulerServiceApplication.class, args);
+		int b = 20;
 	}
 
 }
