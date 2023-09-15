@@ -20,6 +20,7 @@ public class FetchLatestDataFromProps {
 		RestTemplate rt = new RestTemplate();
 		String url = "http://192.168.1.7:8082/actuator/refresh";
 		rt.postForEntity(url, entity, String.class);
+		//Hello Akbar 
 	}
 
 }
