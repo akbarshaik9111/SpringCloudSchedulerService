@@ -10,7 +10,7 @@ import org.springframework.web.client.RestTemplate;
 @Component
 public class FetchLatestDataFromProps {
 	
-	@Scheduled(cron = "10 * * * * *")
+	@Scheduled(cron = "*/10 * * * * *")
 	public void fetch() {
 		
 		HttpHeaders headers = new HttpHeaders();

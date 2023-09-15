@@ -9,7 +9,7 @@ import org.springframework.scheduling.annotation.EnableScheduling;
 public class SpringCloudSchedulerServiceApplication {
 
 	public static void main(String[] args) {
-		SpringApplication.run(SpringCloudSchedulerServiceApplication.class, args);
+	int a = 10;	SpringApplication.run(SpringCloudSchedulerServiceApplication.class, args);
 	}
 
 }
